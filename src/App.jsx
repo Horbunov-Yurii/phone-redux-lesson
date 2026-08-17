@@ -14,7 +14,7 @@ function App() {
   const filter = useSelector((state) => state.filter);
   const [name, setName] = useState("");
   const [number, setNumber] = useState("");
-  // const [filter, setFilter] = useState(""); 
+ 
 
   const handleSubmit = (event) => {
     event.preventDefault();
